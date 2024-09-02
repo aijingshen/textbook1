@@ -1,8 +1,8 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Introduction to BioEngineering
-author: Iain Clark
+title: My sample book
+author: The Jupyter Book Community
 logo: logo.png
 
 # Force re-execution of notebooks on each build.
