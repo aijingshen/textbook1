@@ -12,6 +12,24 @@ execute:
   execute_notebooks         : 'off'  # Whether to execute notebooks at build time. Must be one of ("auto", "force", "cache", "off")
   timeout                   : 600    # The maximum time (in seconds) each notebook cell is allowed to run.
 
+parse:
+  # myst_extended_syntax: true  # instead enable individual features below
+  myst_enable_extensions:  # https://myst-parser.readthedocs.io/en/latest/using/syntax-optional.html
+    - amsmath
+    # - attrs_inline  # causing the conflict with dollarmath
+    - colon_fence
+    - deflist
+    - dollarmath
+    - fieldlist
+    - html_admonition
+    - html_image
+    - linkify
+    - replacements
+    - smartquotes
+    - strikethrough
+    - substitution
+    - tasklist
+
 #######################################################################################
 # HTML-specific settings
 html:
@@ -38,3 +56,4 @@ repository:
 sphinx:
   config:
     html_extra_path: ['assets']
+
