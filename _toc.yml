@@ -6,6 +6,7 @@ options:
 sections:
 - file: chapters/01/what-is-bioengineering
   title: Bioengineering
+  
 - file: chapters/02/programming-in-python
   title: Programming
   sections:
@@ -29,7 +30,6 @@ sections:
         title: String Methods
     - file: chapters/02/5/3/Comparison
       title: Comparisons
-      
   - file: chapters/02/6/Sequences
     title: Sequences
     sections:
@@ -39,7 +39,6 @@ sections:
       title: Ranges
     - file: chapters/02/6/3/More_on_Arrays
       title: More on Arrays
-
   - file: chapters/02/7/Introduction_to_Tables
     title: Tables
     sections:
@@ -77,7 +76,7 @@ sections:
     - file: chapters/02/8/3/Overlaid_Graphs
       title: Overlaid Graphs
  
-- file: chapters/03/artificial-skin
+- file: chapters/03/Diffusion
   title: Diffusion
   sections:
   - file: chapters/03/01/random_walk
@@ -86,12 +85,30 @@ sections:
     title: Ficks Laws
     sections:
     - file: chapters/03/02/01/ficks_first
-      title: Fick's First Law)
+      title: Ficks First Law
     - file: chapters/03/02/02/ficks2
-      title: Fick's Second Law
+      title: Ficks Second Law
   - file: chapters/03/03/dermagraft-derivation
     title: Diffusion Reaction (Steady State, 1-D)
   - file: chapters/03/04/dermagraft-modeling
+    title: Dermagraft Oxygen Concentration
+
+
+- file: chapters/04/CompartmentalModels
+  title: Compartmental Models
+  sections:
+  - file: chapters/04/01/random_walk
+    title: A Random Walk
+  - file: chapters/04/02/ficks_laws
+    title: Ficks Laws
+    sections:
+    - file: chapters/04/02/01/ficks_first
+      title: Ficks First Law
+    - file: chapters/04/02/02/ficks2
+      title: Ficks Second Law
+  - file: chapters/04/03/dermagraft-derivation
+    title: Diffusion Reaction (Steady State, 1-D)
+  - file: chapters/04/04/dermagraft-modeling
     title: Dermagraft Oxygen Concentration
 
 - file: chapters/20/statistics
