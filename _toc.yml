@@ -93,23 +93,25 @@ sections:
   - file: chapters/03/04/dermagraft-modeling
     title: Dermagraft Oxygen Concentration
 
-
-- file: chapters/04/CompartmentalModels
-  title: Compartmental Models
+- file: chapters/04/Pharmokinetics
+  title: Pharmokinetics
   sections:
-  - file: chapters/04/01/random_walk
-    title: A Random Walk
-  - file: chapters/04/02/ficks_laws
-    title: Ficks Laws
+  - file: chapters/04/01/pharmo_intro
+    title: Intro to Pharmokinetic Modeling
+  - file: chapters/04/02/pharmo2
+    title: Compartmental Models
     sections:
-    - file: chapters/04/02/01/ficks_first
-      title: Ficks First Law
-    - file: chapters/04/02/02/ficks2
-      title: Ficks Second Law
-  - file: chapters/04/03/dermagraft-derivation
-    title: Diffusion Reaction (Steady State, 1-D)
-  - file: chapters/04/04/dermagraft-modeling
-    title: Dermagraft Oxygen Concentration
+    - file: chapters/04/02/01/pharmo2_1
+      title: Compartment 2.1
+    - file: chapters/04/02/02/pharmo2_2
+      title: Compartment 2.2
+  - file: chapters/04/03/Compartment_Practice
+    title: Practice problems
+    sections:
+    - file: chapters/04/03/01/compartment_model_morphine
+      title: Morphine Metabolism
+    - file: chapters/04/03/02/compartment_model_thyroid
+      title: Iodine Metabolism
 
 - file: chapters/20/statistics
   title: Statistics
