@@ -98,21 +98,19 @@ sections:
   sections:
   - file: chapters/04/01/pharmo_intro
     title: Intro to Pharmokinetic Modeling
-  - file: chapters/04/02/pharmo2
-    title: Compartmental Models
+  - file: chapters/04/02/compartment_models1
+    title: One Compartment Models
     sections:
-    - file: chapters/04/02/01/pharmo2_1
-      title: Compartment 2.1
-    - file: chapters/04/02/02/pharmo2_2
-      title: Compartment 2.2
-  - file: chapters/04/03/Compartment_Practice
-    title: Practice problems
-    sections:
-    - file: chapters/04/03/01/compartment_model_morphine
+    - file: chapters/04/02/01/morphine
       title: Morphine Metabolism
-    - file: chapters/04/03/02/compartment_model_thyroid
+    - file: chapters/04/02/02/kidney
+      title: Dialysis
+  - file: chapters/04/03/compartment_models2
+    title: Two Compartment Models
+    sections:
+    - file: chapters/04/03/01/thyroid
       title: Iodine Metabolism
-
+    
 - file: chapters/20/statistics
   title: Statistics
   sections:
